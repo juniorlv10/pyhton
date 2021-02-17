@@ -1,0 +1,42 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Acerca de{% endblock%}
+
+{% block backgroud %}{% load static %}{% static 'core/img/cono.jpg' %}{% endblock %}
+
+{% block headers %}
+                <hr>            
+                <h1>Conócenos</h1>
+                <span class="subheading">Misión & Visión</span>
+                <hr>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/conocenos1.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Reseña</h2>   
+        <p>El Instituto de Educación Superior Tecnológico Pública Tembladera es una institución del estado peruano que busca formar profesionales técnicos competentes con una aumentada autoestima, inteligencia, competencias sociales y un estable aprendizaje académico, moral y emocional para que alcancen el éxito personal y profesional dentro de una sociedad actual y cambiante.</p>            
+    </div>    
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/vision.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h3 class="section-heading">Visión</h3>   
+        <p>Aspiramos constituirnos en una Institución que lidera la transformación social en la región, a través de formación de profesionales con un perfil empresarial e innovador. Monitoreado por docentes capacitados y el uso permanente de las tecnologías de la información.</p>
+    </div>
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/mision.jpg' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h3 class="section-heading">Misión</h3>   
+        <p>Somos un instituto de Educación Superior Tecnológica, que forma profesionales técnicos en el área de la salud y servicio social con un perfil adecuado para el mercado laboral local y regional.</p>
+    </div>
+</div>
+</div>
+{% endblock%}
+
+

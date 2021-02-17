@@ -1,0 +1,26 @@
+{% extends 'core/base.html' %}
+
+{% block title %}Contáctenos{% endblock%}
+
+{% block backgroud %}{% load static %}{% static 'core/img/contact.jpg' %}{% endblock %}
+
+{% block headers %}
+                <hr>            
+                <h1>Contáctenos</h1>
+                <span class="subheading">Asesoría</span>
+                <hr>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <h3>Ubícanos</h3>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.8821267211483!2d-79.13528964927568!3d-7.254254073253404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91b2c6e7ed096adb%3A0x7759ae6433253d0f!2sAv.%20Miraflores%20465%2C%20Tembladera%2006437!5e0!3m2!1ses-419!2spe!4v1610960327287!5m2!1ses-419!2spe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <br>
+          <p><b>Direccion:</b> Av. Miraflores Nro. 465 - Contumazá - Cajamarca</p>
+          <p><b>Email:</b> <a href="mesadepartes.iestp.tembladera@gmail.com">mesadepartes.iestp.tembladera@gmail.com</a></p>
+          <p><b>Celular:</b> <a href="https://api.whatsapp.com/send?phone=51953575601">+51 953 575 601</a></p>
+        </div>
+  </div>
+</div>
+{% endblock%}
